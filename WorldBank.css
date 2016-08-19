@@ -1,0 +1,93 @@
+﻿* {
+margin:0;
+padding:0;
+}
+body {
+    font-size: 16px;
+    font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
+    background: #fff;
+    color: #252525;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.3em;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    overflow: auto;
+    -moz-box-shadow: 0 2px 7px #ccc;
+    -webkit-box-shadow: 0 2px 7px #ccc;
+    box-shadow: 0 2px 7px #ccc;
+    
+    }
+.top
+{
+    background-color: #5f5f5f;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+
+}
+#form1 {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+h1 {
+    font-family: "League Gothic", "LeagueGothicRegular", Verdana, sans-serif;
+	text-decoration:none;
+    height: 44px;
+    margin: 10px;
+    padding: 26px 10px 10px 10px;
+    background-color:#94b8b8;
+    
+}
+h3{
+    margin : 10px;
+    width:400Px;
+    margin:10px;
+	padding : 10px;
+    background-color: snow;
+}
+.Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
+.Grid td {
+      padding: 2px;
+      border: solid 1px #c1c1c1; }
+.Grid th  {
+      padding : 4px 2px;
+      color: #fff;
+      background: #363670 url(Images/grid-header.png) repeat-x top;
+      border-left: solid 1px #525252;
+      font-size: 0.9em; }
+.Grid .alt {
+      background: #fcfcfc url(Images/grid-alt.png) repeat-x top; }
+.Grid .pgr {background: #363670 url(Images/grid-pgr.png) repeat-x top; }
+.Grid .pgr table { margin: 3px 0; }
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+.Grid .pgr a { color: Gray; text-decoration: none; }
+.Grid .pgr a:hover { color: #000; text-decoration: none; }
+- See more at: http://www.dotnetfox.com/articles/gridview-custom-css-style-example-in-Asp-Net-1088.aspx#sthash.78LB2hKE.dpuf
+
+#btnUpload, {
+    /* key */
+
+    position: relative;
+    overflow: hidden;
+
+    /* just positioning */
+    float: left; 
+    clear: left;
+}
+
+#btnUpload, #btnDisplay{    /* basically just style this however you want - the overlaying file upload should spread out and fill whatever you turn this into */
+    background-color: cornflowerblue ;
+    text-align: center;
+    padding: .5em 1em;
+    border-radius: 2em;
+    border: 2px solid rgba(0,0,0,.1);
+
+    cursor: pointer;
+}
+
+
+#btnUpload:hover,#btnDisplay:hover {
+    background-color: #f06;
+}
